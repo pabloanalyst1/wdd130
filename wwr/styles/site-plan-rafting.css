@@ -1,0 +1,57 @@
+:root{
+    --primary-color: #2E86AB;
+    --secondary-color: #00b4d8; 
+    --accent1-color: #05668d; 
+    --accent2-color: #90e0ef; 
+
+    --heading-font: 'Freeman', sans-serif;
+    --paragraph-font: 'Freeman', sans-serif;
+  
+    /* Navigation */
+    --nav-bg-color: #f0f3bd; 
+    --nav-link-color: #FFFFFF;
+    --nav-hover-link-color: #FFD700; 
+    --nav-hover-bg-color: #0A1931;
+}
+
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header{
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p{
+    padding: 25px;
+}
+
+nav{
+    background-color: var(--nav-bg-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a{
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-bg-color);
+}
