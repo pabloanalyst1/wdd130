@@ -146,25 +146,25 @@ h1{
   margin-top: -5px;
 }
 
-.adventure img {
-  max-width: 100%; /* Adjust image width */
-  height: 110px; /* Set a fixed height for consistency */
-  margin-bottom: 10px;
-}
-
 .adventure-content {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around; /* Horizontal alignment */
+  flex-wrap: wrap; /* Wrap items if they exceed container width */
 }
 
-.adventure-content div {
-  margin: 10px; 
+.adventure-content figure {
+  margin: 10px;
   text-align: center;
 }
 
-.adventure-content p {
-  margin: 5px 0; 
+.adventure-content img {
+  max-width: 100%;
+  height: 110px;
+  margin-bottom: 5px;
+}
+
+.adventure-content figcaption {
+  margin-top: 5px;
 }
 
 .footer {
