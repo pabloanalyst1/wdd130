@@ -17,6 +17,39 @@ body {
   padding: 20px;
 }
 
+.header {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center; 
+  gap: 70px; 
+  padding: 1rem; 
+  background-color: #f3d37d;
+}
+
+.header img{
+  width: 250px;
+  margin-left: 5rem;
+}
+
+.nav {
+  display:flex;
+  justify-content:flex-start 
+}
+
+.nav a {
+  text-decoration: none;
+  padding: 10px;
+  width: 90px;
+  color: #333; 
+  border: 1px solid #050202;
+  text-align: center;
+  background-color: rgb(189, 237, 224);
+}
+
+.nav a:hover {
+  color: #007bff; 
+}
+
 a{
     text-decoration: none;
     padding: 5px;
@@ -35,12 +68,13 @@ h1{
 
 .hero img {
   display: block; 
+  margin-top: 1rem;
   width: 100%; 
 }
 
 .hero h1 {
   position: absolute;
-  top: 15%;
+  top: 20%;
   text-align:center;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -68,28 +102,105 @@ h1{
   margin-left: 10px; 
 }
 
-h2{
-    font-family: var(--heading-font);
-    color: var(--primary-color);
+.history {
+  background-color: #8cc4f2;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px 0;
+  text-align: center;
 }
 
-p {
-  color: var(--accent1-color);
+.history h2 {
+  color: #ff7700;
+  margin-bottom: 10px;
 }
 
-section img{
-    max-width: 500px;
-    height: auto;
+.history img {
+  height: 200px;
+  margin-bottom: 10px;
 }
 
-footer .socialmedia a {
-    text-decoration: none; 
-    margin-top: 15px;
-    text-align: center;
-    padding: 5px;
-  }
+.history-content {
+  display: flex;
+  justify-content: left;
+  align-items:center;
+  flex-wrap: wrap;
+}
 
-footer .socialmedia a img{
-    width: 50px;
-    height: 50px;
+.history-content p {
+  flex-basis: 100%; /* Each paragraph takes full width initially */
+  text-align:left; 
+  margin: 10px 0;
+}
+
+.adventure {
+  background-color: #8cc4f2;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.adventure h2 {
+  color: #ff7700;
+  margin-top: -5px;
+}
+
+.adventure img {
+  max-width: 100%; /* Adjust image width */
+  height: 110px; /* Set a fixed height for consistency */
+  margin-bottom: 10px;
+}
+
+.adventure-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.adventure-content div {
+  margin: 10px; 
+  text-align: center;
+}
+
+.adventure-content p {
+  margin: 5px 0; 
+}
+
+.footer {
+  background-color: #f0f0f0;
+  border-top: 1px solid #ccc;
+  padding: 20px;
+  text-align: center; 
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.footer p {
+  margin-left: 55px;
+  flex: 1; 
+  text-align: center; 
+}
+
+.footer .socialmedia {
+  margin-top: 15px; 
+}
+
+.footer .socialmedia a {
+  text-decoration: none;
+  margin-right: 10px; 
+  padding: 5px;
+}
+
+.footer .socialmedia a:last-child {
+  margin-right: 0; 
+}
+
+.footer .socialmedia a img {
+  width: 35px;
+  height: 35px;
 }
