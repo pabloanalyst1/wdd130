@@ -60,12 +60,7 @@ label {
     padding-right: 1rem;
 }
 
-label[for="feedback"] {
-    text-align: center;
-    padding: 0.5rem;
-}
-
-input, select {
+input, select, textarea {
     padding: 0.5rem;
     font-size: 1.1rem;
     width: 100%;
