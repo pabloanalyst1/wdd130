@@ -65,17 +65,13 @@ label[for="feedback"] {
     padding: 0.5rem;
 }
 
-input, select, textarea {
+input, select {
     padding: 0.5rem;
     font-size: 1.1rem;
     width: 100%;
 }
 
-input[type="checkbox"] {
-    width: 22px;
-    height: 22px;
-    vertical-align: bottom;
-}
+
 
 .question4_image {
     display: block;
