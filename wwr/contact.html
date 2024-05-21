@@ -1,1 +1,115 @@
-Working on it 
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Gravity Adventures Rapids | Jose Arizandieta</title>
+    <meta name="description" content="This page was created to provide customers with contact information for further details and reservations.">
+    <meta name="author" content="Jose Arizandieta">
+    <link rel="stylesheet" href="styles/contact.css">
+</head>
+<body>
+    <header class="header">
+        <img src="../wwr/images/logo.png" alt="Site Plan Rafting Logo">
+        <nav class="nav">
+            <a href="../wwr/index.html">Home</a>
+            <a href="../wwr/about.html">About Us</a>
+            <a href="../wwr/trips.html">Trips</a>
+            <a href="../wwr/contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-info">
+            <h1>Contact Us</h1>
+            <p>Address: 123 Adventure Road, Rapids City, RC 45678</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Email: info@gravityadventures.com</p>
+            <div class="map">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019843319758!2d-122.4212788846828!3d37.77966387975865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c2a92c1e3%3A0xf32e72e73e2ab9d4!2s123%20Adventure%20Rd%2C%20San%20Francisco%2C%20CA%2094122%2C%20USA!5e0!3m2!1sen!2sus!4v1620123456789!5m2!1sen!2sus" 
+                    width="600" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
+
+        <section class="employee-profiles">
+            <h2>Meet Our Team</h2>
+            <div class="profiles">
+                <figure>
+                    <img src="images/john_doe.jpg" alt="Employee 1">
+                    <figcaption>John Doe - Tour Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/jane_smith.jpg" alt="Employee 2">
+                    <figcaption>Jane Smith - Reservation Specialist</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/emily_johnson.jpg" alt="Employee 3">
+                    <figcaption>Emily Johnson - Customer Support</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Get in Touch</h2>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="purpose">Purpose of Message:</label>
+                    <div>
+                        <input type="radio" id="general-inquiry" name="purpose" value="general-inquiry">
+                        <label for="general-inquiry">General Inquiry</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="reservation-question" name="purpose" value="reservation-question">
+                        <label for="reservation-question">Reservation Question</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="website-suggestion" name="purpose" value="website-suggestion">
+                        <label for="website-suggestion">Website Suggestion</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>©️2024 Gravity Adventures Rapids | Jose Arizandieta</p>
+            <nav class="socialmedia">
+                <a href="https://www.facebook.com/?locale=en_US">
+                    <img src="../wwr/images/facebook_logo.png" alt="Facebook">
+                </a>
+                <a href="https://www.tiktok.com/en/">
+                    <img src="../wwr/images/tik_tok_logo.png" alt="Tik Tok">
+                </a>
+                <a href="https://www.instagram.com/">
+                    <img src="../wwr/images/instagram_logo.jpg" alt="Instagram">
+                </a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
