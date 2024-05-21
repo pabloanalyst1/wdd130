@@ -5,7 +5,6 @@
   --secondary-color: white;
   --accent1-color: #001212;
   --accent2-color: #ecc867;
-
   --heading-font: 'Freeman', sans-serif;
   --paragraph-font: 'Freeman', sans-serif;
 }
@@ -26,14 +25,14 @@ body {
   background-color: #f3d37d;
 }
 
-.header img{
+.header img {
   width: 250px;
   margin-left: 5rem;
 }
 
 .nav {
-  display:flex;
-  justify-content:flex-start 
+  display: flex;
+  justify-content: flex-start;
 }
 
 .nav a {
@@ -50,15 +49,14 @@ body {
   color: #007bff; 
 }
 
-a{
-    text-decoration: none;
-    padding: 5px;
+a {
+  text-decoration: none;
+  padding: 5px;
 }
 
-h1{
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-
+h1 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
 }
 
 .hero {
@@ -75,14 +73,13 @@ h1{
 .hero h1 {
   position: absolute;
   top: 20%;
-  text-align:center;
+  text-align: center;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white; 
   background-color: rgba(0, 0, 0, 0.7);
   width: 100%;
   padding: 10px;
-
 }
 
 .hero article {
@@ -96,7 +93,7 @@ h1{
 }
 
 .hero article img {
-  float:right; 
+  float: right; 
   height: 150px;
   width: 250px;
   margin-left: 10px; 
@@ -123,13 +120,13 @@ h1{
 .history-content {
   display: flex;
   justify-content: left;
-  align-items:center;
+  align-items: center;
   flex-wrap: wrap;
 }
 
 .history-content p {
-  flex-basis: 100%; /* Each paragraph takes full width initially */
-  text-align:left; 
+  flex-basis: 100%;
+  text-align: left; 
   margin: 10px 0;
 }
 
@@ -148,8 +145,8 @@ h1{
 
 .adventure-content {
   display: flex;
-  justify-content: space-around; /* Horizontal alignment */
-  flex-wrap: wrap; /* Wrap items if they exceed container width */
+  justify-content: space-around; 
+  flex-wrap: wrap; 
 }
 
 .adventure-content figure {
@@ -203,4 +200,97 @@ h1{
 .footer .socialmedia a img {
   width: 35px;
   height: 35px;
+}
+
+.contact-info {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.contact-info h1 {
+  color: var(--primary-color);
+}
+
+.contact-info p {
+  margin: 10px 0;
+}
+
+.contact-info .map {
+  margin: 20px 0;
+}
+
+.employee-profiles {
+  background-color: #f3f3f3;
+  padding: 20px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.employee-profiles h2 {
+  color: var(--primary-color);
+}
+
+.employee-profiles .profiles {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px; 
+}
+
+.employee-profiles figure {
+  margin: 10px;
+  text-align: center;
+  flex-basis: 20%;
+  flex-grow: 1; 
+}
+
+.employee-profiles img {
+  max-width: 80%; 
+  height: 80%;
+  border-radius: 50%;
+}
+
+.contact-form {
+  background-color: #e0f7fa;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.contact-form h2 {
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-form .form-group {
+  margin-bottom: 15px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+.contact-form button:hover {
+  background-color: var(--accent1-color);
 }
